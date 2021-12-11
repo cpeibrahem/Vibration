@@ -13,16 +13,40 @@ Imagination
 ### vibration
 
 # Project Brief Description:
-The main idea of our project is the AI model will generate interactive painting integrated with Arduino connected with sensors of temperature, humidity, percentage of light and water, and according to the sensors results, if the plants conditions satisfied the long-wavelength vibrations, then the painting will re-color by (blue, green and violet), otherwise (red, yellow and orange)
+The main idea of our project is the AI model will generate smart and interactive art by using Raspberry Pi as a microcontroller and connecting it with temperature, light, humidity, and water sensors.
+
+Where the model will take a portrait photo, then according to the sensors results, if the reading satisfied the long-wavelength, the image will be re-color by (red, orange, and yellow), or if the reading satisfied the short-wavelength, then the image will be re-color by (green, blue, and violet).
 
 # Project AI Description:
-We train a ML model that can draw a painting of any living creature and its color depending on the sensors results that comes form the Arduino, if satisfied or not.
+We built a high-precision AI model based on the concept of computer vision, and we connect it with those sensors.
+Where the model will take a portrait photo through the connected camera, and then the model will make a Sketch for that image by drawing lines and empty areas with very high accuracy in black and white, then it will measure climatic variables light, temperature, humidity, and water and re-color the image according to the sensor readings.
 
 # Project Art Description:
-The Interactive AI art is represented in the presence of low amount of light, low temperature, high water content, and high humidity, where short wavelength vibrations of blue, green and violet are formed in the painting. If the amount of light is high, the temperature is high, the humidity is low, and the water percentage is low, long-wavelength vibrations of red, yellow and orange are formed in the plastic painting.
+This interactive artwork will affect the psychology of the viewer, when the artwork’s colors change from one stage to another, it will increase its interaction with the captured scene.
+First Stage: the artwork appears in black and white without colors, and then interacts with the second stage, which is re-coloring the artwork in red, orange, and yellow colors, which reflect on his feeling, to feel warm.
+Third stage: which is coloring the artwork in green, blue and violet colors to feel cold.
+
+# Project Technologies Description:
+AI technologies we used:
+
+▪ Hardware:
+• Raspberry Pi
+• Temperature sensor
+• Light sensor
+• Water sensor
+• Humidity sensor
+
+▪ Software:
+Ai model consists of:
+• Numpy module.
+• OpenCV library.
+• torch module.
+• time Library.
+• os module.
+
 
 # Project Video:
-[vibration](https://youtu.be/k1bC2KbdlVI)
+[vibration](https://youtu.be/3d9cSpDszS4)
 
 
 
