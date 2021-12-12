@@ -6,8 +6,8 @@ Imagination
 
 ## Team Members:
 1.  Dr.Abdullah Alhebi
-2. Asma Abdulsaamad
-3. ibrahim saber
+2. Asma Qari
+3. Ibrahim saber
 
 # Project Name:
 ### vibration
